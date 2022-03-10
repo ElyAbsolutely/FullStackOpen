@@ -1,4 +1,4 @@
 ﻿# FullStackOpen
 
-Download the default file as a base for the projects.
-Once downloaded, download any of the other project subfiles and drop it into the default file
+npx create-react-app {name} and then drop the files to test the projects
+Node_modules tents to break everything for some reason so, sorry for the inconvenience
