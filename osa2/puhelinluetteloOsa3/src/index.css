@@ -1,0 +1,33 @@
+.success {
+    background-color: lightgray;
+
+    border: 2px darkgreen solid;
+    border-radius: 5px;
+
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.success p {
+    color: darkgreen;
+    margin: 12px auto;
+}
+
+.fail {
+    background-color: lightgray;
+
+    border: 2px red solid;
+    border-radius: 5px;
+
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fail p {
+    color: red;
+    margin: 12px auto;
+}
