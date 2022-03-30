@@ -1,0 +1,8 @@
+POST https://puhelinluettelobackendjm.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "Testificate",
+    "number": "1"
+}
