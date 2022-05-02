@@ -1,0 +1,9 @@
+GET http://localhost:3001/api/blogs/
+
+https://puhelinluettelobackendjm.herokuapp.com/api/persons
+
+http://localhost:3001
+
+http://localhost:3001/info
+
+https://puhelinluettelobackendjm.herokuapp.com/info

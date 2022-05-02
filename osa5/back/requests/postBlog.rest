@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRhdmUiLCJpZCI6IjYyNGQ2NmVhZGM4YjU5NTIxNzhmNjU0MyIsImlhdCI6MTY0OTM0NDA3MSwiZXhwIjoxNjQ5MzQ3NjcxfQ.20kXCz_KwM6LpXVI1YdQj2vYZ2CxyAsM3fVqWp3fWmo
+
+{
+    "title": "HAH",
+    "author": "HAH",
+    "url": "HAH",
+    "likes": 42225,
+    "userId": "624d66eadc8b5952178f6543"
+}
