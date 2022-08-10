@@ -1,0 +1,30 @@
+{
+    "name": "front",
+    "version": "1.0.0",
+    "description": "TypeScript",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node index.ts",
+        "dev": "ts-node-dev index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tm": "ts-node ./exercises/multiplier.ts",
+        "tc": "ts-node ./exercises/calculator.ts",
+        "tb": "ts-node ./exercises/bmiCalculator.ts",
+        "te": "ts-node ./exercises/exerciseCalculator.ts"
+    },
+    "author": "JM",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/node": "^17.0.36",
+        "@typescript-eslint/eslint-plugin": "^5.27.0",
+        "@typescript-eslint/parser": "^5.27.0",
+        "eslint": "^8.16.0",
+        "ts-node": "^10.8.0",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^4.7.2"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    }
+}
