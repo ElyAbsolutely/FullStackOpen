@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/lists/1
+Content-Type: application/json
+Authorization: authorizationTokenHere
+
+{
+    "seen": true
+}
