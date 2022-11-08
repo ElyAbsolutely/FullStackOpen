@@ -15,9 +15,6 @@ jobs:
       - name: npm install
         working-directory: "./osa3"
         run: npm install
-      - name: lintconfig
-        working-directory: "./osa3"
-        run: npm init @eslint/config
       - name: lint
         working-directory: "./osa3"
         run: npm run lint
