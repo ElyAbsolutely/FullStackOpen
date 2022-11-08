@@ -19,6 +19,10 @@ app.get("/", (request, response) => { // GET /
     response.send("<h1>Running persons.json...</h1>")
 })
 
+app.get('/health', (req, res) => {
+  res.send('ok')
+})
+
 app.get("/info", (request, response, next) => { // GET INFO
 
     Person.find({})
